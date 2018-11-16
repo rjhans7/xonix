@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roosevelt/Descargas/proyecto/main.cpp
+cstdlib
+-
+ctime
+-
+iostream
+-
+SFML/Graphics.hpp
+-
+SFML/Audio.hpp
+-
+string
+-
+sstream
+-
+
